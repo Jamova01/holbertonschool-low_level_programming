@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-char numbers = 48;
+int numbers = 48;
 while (numbers <= 57)
 putchar(numbers++);
 putchar('\n');
