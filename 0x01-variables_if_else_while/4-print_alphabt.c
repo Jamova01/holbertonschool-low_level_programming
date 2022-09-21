@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-char alphabetLowercase = 97;
-while (alphabetLowercase <= 122)
+char alphabetLowercase = 'a';
+while (alphabetLowercase <= 'z')
 {
-if (alphabetLowercase != 113 && alphabetLowercase != 101)
+if (alphabetLowercase != 'q' && alphabetLowercase != 'e')
 {
 putchar(alphabetLowercase);
 }
 alphabetLowercase++;
 }
-putchar(10);
+putchar('\n');
 return (0);
 }
