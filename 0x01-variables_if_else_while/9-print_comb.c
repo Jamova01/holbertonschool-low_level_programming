@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * main - C that prints all the numbers of base
- * 16 in lowercase, followed by a new line.
+ * main - C program that prints all possible
+ * combinations of single-digit numbers.
  * Return: 0
  */
 int main(void)
 {
-char numbers;
+int numbers;
 numbers = 48;
 while (numbers <= 57)
 {
