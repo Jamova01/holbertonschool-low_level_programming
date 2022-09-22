@@ -1,6 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/* libraries */
+#include <stdio.h>
+
 /* Prototypes */
 int _putchar(char c);
 void print_alphabet(void);
